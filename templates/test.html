@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    create tache
+    <form action="/create/tache" method="post">
+        <input type="text" name="idPersonne">
+        <input type="text" name="designation">
+        <input type="submit">
+
+    </form>
+terminer tache
+    <form action="/end" method="post">
+        <input type="text" name="id">
+        <input type="submit">
+
+    </form>
+maj tache
+    <form action="/update/tache" method="post">
+        <input type="text" name="id">
+        <input type="text" name="designation">
+        <input type="submit">
+
+    </form>
+ 
+    
+    <form action="/create/equipe" method="post">
+        <input type="text" name="name">
+        <input type="text" name="cp">
+        <input type="submit">
+
+    </form>
+
+    <form action="/update/equipe" method="post">
+        <input type="text" name="id">
+        <input type="text" name="cp">
+        <input type="submit">
+
+    </form> 
+    
+    <form action="/delete/equipe" method="post">
+        <input type="text" name="id">
+        <input type="submit">
+
+    </form>
+
+    <h1>Personne test</h1>
+  
+    <form action="/create/personne" method="post">
+        <input type="text" name="nom">
+        <input type="text" name="prenom">
+        <input type="text" name="idequipe">
+        <input type="text" name="poste">
+        <input type="submit">
+
+    </form>
+     
+    <form action="/delete/personne" method="post">
+        <input type="text" name="id">
+        <input type="submit">
+
+    </form>
+    <form action="/update/personne" method="post">
+        <input type="text" name="id">
+        <input type="text" name="nom">
+        <input type="text" name="prenom">
+        <input type="text" name="idequipe">
+        <input type="text" name="poste">
+        <input type="submit">
+
+    </form>
+
+</body>
+</html>
