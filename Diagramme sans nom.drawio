@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T11:03:36.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4503.5 Safari/537.36" etag="mj3twssU9Jrc8fiEK5nI" version="14.6.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-21T12:44:09.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4503.5 Safari/537.36" etag="a6w5wrz1Yn8-1AwhPlm7" version="14.6.13" type="github" pages="5">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1045" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XLkgii9C2WFCZE07nWrd" name="Page-2">
+  <diagram id="XLkgii9C2WFCZE07nWrd" name="Gestion des contacts">
     <mxGraphModel dx="1269" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="py83D3w0sONc9merwJDn-0" />
@@ -232,7 +232,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="hR465VxKL99EB0zzIP53" name="Page-3">
+  <diagram id="hR465VxKL99EB0zzIP53" name="Gestion des taches">
     <mxGraphModel dx="888" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="O8rrX48du7Tco0QoKG7b-0" />
@@ -454,13 +454,13 @@
         <mxCell id="3ZFx33d2AV8vLjo_OPaf-0" />
         <mxCell id="3ZFx33d2AV8vLjo_OPaf-1" parent="3ZFx33d2AV8vLjo_OPaf-0" />
         <mxCell id="3ZFx33d2AV8vLjo_OPaf-2" value="Communication App" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
-          <mxGeometry x="1222.5" y="160" width="115" height="194" as="geometry" />
+          <mxGeometry x="1222.5" y="160" width="115" height="270" as="geometry" />
         </mxCell>
         <mxCell id="3ZFx33d2AV8vLjo_OPaf-3" value="Supérieur" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
-          <mxGeometry x="870" y="174" width="100" height="188" as="geometry" />
+          <mxGeometry x="870" y="174" width="100" height="266" as="geometry" />
         </mxCell>
         <mxCell id="3ZFx33d2AV8vLjo_OPaf-4" value="API Communication App" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
-          <mxGeometry x="1495" y="160" width="135" height="192" as="geometry" />
+          <mxGeometry x="1495" y="160" width="135" height="280" as="geometry" />
         </mxCell>
         <mxCell id="3ZFx33d2AV8vLjo_OPaf-5" value="Publication d&#39;une note de Service" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;" edge="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -523,7 +523,7 @@
             <mxPoint x="1555" y="253" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3ZFx33d2AV8vLjo_OPaf-17" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;dashed=1;exitX=0.481;exitY=0.574;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3ZFx33d2AV8vLjo_OPaf-1" source="3ZFx33d2AV8vLjo_OPaf-4">
+        <mxCell id="3ZFx33d2AV8vLjo_OPaf-17" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;dashed=1;exitX=0.481;exitY=0.404;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3ZFx33d2AV8vLjo_OPaf-1" source="3ZFx33d2AV8vLjo_OPaf-4" target="3ZFx33d2AV8vLjo_OPaf-9">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1555" y="282" as="sourcePoint" />
             <mxPoint x="1285" y="270" as="targetPoint" />
@@ -549,6 +549,50 @@
         </mxCell>
         <mxCell id="3ZFx33d2AV8vLjo_OPaf-22" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
           <mxGeometry x="1395" y="320.90999999999997" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TYynvfcu4RTkaPm2Skov-0" value="Suppression d&#39;une note de Service" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;" edge="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="919" y="388.0000000000001" as="sourcePoint" />
+            <mxPoint x="1278.5" y="388.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="939" y="388" />
+              <mxPoint x="1019" y="388" />
+              <mxPoint x="1089" y="388" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYynvfcu4RTkaPm2Skov-1" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1279" y="419.0000000000001" as="sourcePoint" />
+            <mxPoint x="918.5" y="419.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYynvfcu4RTkaPm2Skov-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
+          <mxGeometry x="914" y="389" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TYynvfcu4RTkaPm2Skov-3" value="Modifier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
+          <mxGeometry x="1069" y="399" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TYynvfcu4RTkaPm2Skov-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
+          <mxGeometry x="1274" y="390" width="10" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="TYynvfcu4RTkaPm2Skov-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
+          <mxGeometry x="1556.5" y="389" width="10" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="TYynvfcu4RTkaPm2Skov-6" value="Modification de la note de service" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;entryX=0.485;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3ZFx33d2AV8vLjo_OPaf-1" target="TYynvfcu4RTkaPm2Skov-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1284" y="391.81999999999994" as="sourcePoint" />
+            <mxPoint x="1554" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYynvfcu4RTkaPm2Skov-7" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;dashed=1;exitX=0.481;exitY=0.574;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1558.9350000000004" y="409.20799999999997" as="sourcePoint" />
+            <mxPoint x="1284" y="408.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYynvfcu4RTkaPm2Skov-8" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="3ZFx33d2AV8vLjo_OPaf-1">
+          <mxGeometry x="1394" y="391" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
