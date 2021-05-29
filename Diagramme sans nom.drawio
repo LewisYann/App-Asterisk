@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T15:33:08.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.20 Safari/537.36" etag="8uVsiZCJQhUoc9WJuQce" version="14.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-29T13:34:16.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.20 Safari/537.36" etag="M-97qDRDjvNI_Hi1Bh0v" version="14.7.2" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="868" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -150,8 +150,8 @@
             <mxPoint x="94" y="338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O8rrX48du7Tco0QoKG7b-26" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="O8rrX48du7Tco0QoKG7b-1" vertex="1">
-          <mxGeometry x="235" y="319.00000000000006" width="40" height="20" as="geometry" />
+        <mxCell id="O8rrX48du7Tco0QoKG7b-26" value="Envoi de la tache à l&#39;employé&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="O8rrX48du7Tco0QoKG7b-1" vertex="1">
+          <mxGeometry x="155" y="318.00000000000006" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O8rrX48du7Tco0QoKG7b-27" value="Attribution des Taches" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="O8rrX48du7Tco0QoKG7b-1" vertex="1">
           <mxGeometry x="175" y="290" width="130" height="20" as="geometry" />
